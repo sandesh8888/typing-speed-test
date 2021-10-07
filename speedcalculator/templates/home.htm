@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedTester</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Roboto Mono', monospace;
+            color: #b33333;
+            background: #202731;
+        }
+        h1{
+            font-weight: bold;
+        }
+        section{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 300px;
+            padding: 50px 20vw;
+            
+        }
+        .spacer{
+            aspect-ratio: 900/300;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+        }
+        .layer1{
+            background-image: url('./assets/wave1.svg');
+        }
+        .second{
+            background: #b33333;
+            color: #202731;
+        }
+        .spacer2{
+            aspect-ratio: 900/300;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+        }
+        .layer2{
+            background-image: url('./assets/wave2.svg');
+        }
+        .button{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 400px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <section style="padding-top: 150px;">
+        <h1>Speed Tester</h1>
+        <p>Test your typing Speed</p>
+    </section>
+    <div class="spacer layer1"></div>
+    <section class="second" >
+        <div>
+            <h1>The average speed for professional typists is 50 to 80 wpm</h1>
+            <br>
+            <h1>92% is the typing accuracy: An average typist can make eight typos for every 100 words</h1>
+            <br>
+            <h1>45% of boys prefer typing as compared to 55% of girls</h1>      
+        </div>
+    </section>
+    <div class="spacer2 layer2">
+        <div class="button">
+            <button type="button" class="btn btn-dark" style="padding: 20px;">Check my speed</button>
+
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
